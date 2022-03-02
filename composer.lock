@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3e9908f21b3414310ea38b8424602dc9",
+    "packages": [
+        {
+            "name": "asadbek/octo-laravel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Asadbekinha/octo-laravel.git",
+                "reference": "fd18d40ef79be06b17a3b7fd03e807916ab42308"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Asadbekinha/octo-laravel/zipball/fd18d40ef79be06b17a3b7fd03e807916ab42308",
+                "reference": "fd18d40ef79be06b17a3b7fd03e807916ab42308",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Asadbek\\OctoLaravel\\Providers\\OctoServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Asadbek\\OctoLaravel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Asadbekinha",
+                    "email": "fayzulloevasadbek@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Asadbekinha/octo-laravel/issues",
+                "source": "https://github.com/Asadbekinha/octo-laravel/tree/1.2.0"
+            },
+            "time": "2022-03-02T09:32:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "asadbek/octo-laravel": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

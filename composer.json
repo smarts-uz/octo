@@ -1,0 +1,14 @@
+{
+    "name": "teamprodev/octo",
+    "require": {
+        "asadbek/octo-laravel": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Asadbekinha",
+            "email": "fayzulloevasadbek@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
